@@ -258,3 +258,58 @@ colcon build && ros2 launch python_vfo vfo.launch.py kp:=2.0 sigma:=-1.0 ka:=4.0
 colcon build && ros2 launch python_vfo vfo.launch.py kp:=1.0 ka:=2.0 
 pip install usb-can-analyzer
 exit
+ls
+colcon build
+exit
+colcon build
+exit
+ls
+source install/setup.bash 
+ros2 launch agv_navigation navigation.launch.py 
+colcon build
+ros2 launch agv_navigation navigation.launch.py 
+colcon build
+ros2 launch agv_navigation navigation.launch.py 
+exit
+colcon build
+ros2 launch python_vfo vfo.launch.py kp:=1.0 ka:=2.0 
+source install/setup.bash 
+ros2 launch python_vfo vfo.launch.py kp:=1.0 ka:=2.0 
+gazebo
+ros2 launch python_vfo vfo.launch.py kp:=1.0 ka:=2.0 
+colcon build
+ros2 launch python_vfo vfo.launch.py kp:=1.0 ka:=2.0 
+colcon build
+source install/setup.bash 
+ros2 launch python_vfo vfo.launch.py kp:=1.0 ka:=2.0 
+gazebo
+ros2 launch python_vfo vfo.launch.py kp:=1.0 ka:=2.0 
+gazebo
+colcon build
+ros2 launch python_vfo vfo.launch.py kp:=1.0 ka:=2.0 
+colcon build
+ros2 launch python_vfo vfo.launch.py kp:=1.0 ka:=2.0 
+colcon build
+ros2 launch python_vfo vfo.launch.py kp:=1.0 ka:=2.0 
+colcon build
+ros2 launch python_vfo vfo.launch.py kp:=1.0 ka:=2.0 
+colcon build
+ros2 launch python_vfo vfo.launch.py kp:=1.0 ka:=2.0 
+colcon build
+ros2 launch python_vfo vfo.launch.py kp:=1.0 ka:=2.0 
+colcon build
+ros2 launch python_vfo vfo.launch.py kp:=1.0 ka:=2.0 
+colcon build
+ros2 launch python_vfo vfo.launch.py kp:=1.0 ka:=2.0 
+colcon build
+ros2 launch python_vfo vfo.launch.py kp:=1.0 ka:=2.0 
+colcon build
+ros2 launch python_vfo vfo.launch.py kp:=1.0 ka:=2.0 
+colcon build
+ros2 launch python_vfo vfo.launch.py kp:=1.0 ka:=2.0 
+colcon build
+ros2 launch python_vfo vfo.launch.py kp:=1.0 ka:=2.0 
+ros2 launch python_vfo vfo.launch.py kp:=0.5 ka:=2.0 
+ros2 launch python_vfo vfo.launch.py kp:=1.0 ka:=2.0 
+colcon build
+ros2 launch python_vfo vfo.launch.py kp:=1.0 ka:=2.0 

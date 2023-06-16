@@ -23,10 +23,10 @@ def generate_launch_description():
 
     sigma = LaunchConfiguration("sigma", default="1.0")
     Kp = LaunchConfiguration("Kp", default="1.0")
-    Ka = LaunchConfiguration("Ka", default="4.0")
+    Ka = LaunchConfiguration("Ka", default="2.0")
     ksid = LaunchConfiguration("ksid", default="1.0")
     v_d = LaunchConfiguration("v_d", default="-0.25")
-    max_speed = LaunchConfiguration("max_speed", default="1.5")
+    max_speed = LaunchConfiguration("max_speed", default="2.0")
 
     # declare launch arguments
 
@@ -48,7 +48,7 @@ def generate_launch_description():
 
     use_sim_time = LaunchConfiguration("use_sim_time", default="true")
     x_pose = LaunchConfiguration("x_pose", default="0.0")
-    y_pose = LaunchConfiguration("y_pose", default="1.5")
+    y_pose = LaunchConfiguration("y_pose", default="0.0")
 
     world = os.path.join(
         get_package_share_directory("turtlebot3_gazebo"), "worlds", "empty_world.world"
@@ -109,7 +109,7 @@ def generate_launch_description():
         output="screen",
         arguments=[
             "-d",
-            os.path.join(get_package_share_directory("python_vfo"), "rviz", "vfo.rviz"),
+            os.path.join(get_package_share_directory("tb3_sim"), "rviz", "vfo.rviz"),
         ],
     )
 
